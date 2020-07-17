@@ -15,17 +15,17 @@
 	<ul class="breadcrumb breadcrumb-tabs">
 	  	<li>
 	  		<a href="<?php echo SERVERURL; ?>client/" class="btn btn-info">
-	  			<i class="zmdi zmdi-plus"></i> &nbsp; NUEVO CLIENTE
+	  			<i class="zmdi zmdi-plus"></i> &nbsp; NUEVO ESTUDIANTE
 	  		</a>
 	  	</li>
 	  	<li>
 	  		<a href="<?php echo SERVERURL; ?>clientlist/" class="btn btn-success">
-	  			<i class="zmdi zmdi-format-list-bulleted"></i> &nbsp; LISTA DE CLIENTES
+	  			<i class="zmdi zmdi-format-list-bulleted"></i> &nbsp; LISTA DE ESTUDIANTES
 	  		</a>
 	  	</li>
 	  	<li>
 	  		<a href="<?php echo SERVERURL; ?>clientsearch/" class="btn btn-primary">
-	  			<i class="zmdi zmdi-search"></i> &nbsp; BUSCAR CLIENTE
+	  			<i class="zmdi zmdi-search"></i> &nbsp; BUSCAR ESTUDIANTE
 	  		</a>
 	  	</li>
 	</ul>

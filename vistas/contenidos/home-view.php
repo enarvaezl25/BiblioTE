@@ -15,12 +15,17 @@
         $IAdmin = new administradorControlador();
         $CAdmin=$IAdmin->datos_administrador_controlador('Conteo',0);
     ?>
+	
 	<article class="full-box tile">
 		<div class="full-box tile-title text-center text-titles text-uppercase">
-			administradores
+		administradores
 		</div>
 		<div class="full-box tile-icon text-center">
-			<i class="zmdi zmdi-account"></i>
+			<!-- <i class="zmdi zmdi-account"></i> -->
+			<i class="zmdi zmdi-account">
+			</i>
+			
+			<!-- redireecionar al adminstrador -->
 		</div>
 		<div class="full-box tile-number text-titles">
 			<p class="full-box"><?php echo $CAdmin->rowCount(); ?></p>
@@ -34,7 +39,7 @@
     ?>
 	<article class="full-box tile">
 		<div class="full-box tile-title text-center text-titles text-uppercase">
-			Clientes
+			Estudiantes
 		</div>
 		<div class="full-box tile-icon text-center">
 			<i class="zmdi zmdi-male-female"></i>

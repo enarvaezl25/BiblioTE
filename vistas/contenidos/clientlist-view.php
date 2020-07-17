@@ -6,7 +6,7 @@
 ?>
 <div class="container-fluid">
 	<div class="page-header">
-	  <h1 class="text-titles"><i class="zmdi zmdi-male-alt zmdi-hc-fw"></i> Usuarios <small>CLIENTES</small></h1>
+	  <h1 class="text-titles"><i class="zmdi zmdi-male-alt zmdi-hc-fw"></i> Usuarios <small>ESTUDIANTES</small></h1>
 	</div>
 	<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse voluptas reiciendis tempora voluptatum eius porro ipsa quae voluptates officiis sapiente sunt dolorem, velit quos a qui nobis sed, dignissimos possimus!</p>
 </div>
@@ -15,17 +15,17 @@
 	<ul class="breadcrumb breadcrumb-tabs">
 	  	<li>
 	  		<a href="<?php echo SERVERURL; ?>client/" class="btn btn-info">
-	  			<i class="zmdi zmdi-plus"></i> &nbsp; NUEVO CLIENTE
+	  			<i class="zmdi zmdi-plus"></i> &nbsp; NUEVO ESTUDIANTE
 	  		</a>
 	  	</li>
 	  	<li>
 	  		<a href="<?php echo SERVERURL; ?>clientlist/" class="btn btn-success">
-	  			<i class="zmdi zmdi-format-list-bulleted"></i> &nbsp; LISTA DE CLIENTES
+	  			<i class="zmdi zmdi-format-list-bulleted"></i> &nbsp; LISTA DE ESTUDIANTES
 	  		</a>
 	  	</li>
 	  	<li>
 	  		<a href="<?php echo SERVERURL; ?>clientsearch/" class="btn btn-primary">
-	  			<i class="zmdi zmdi-search"></i> &nbsp; BUSCAR CLIENTE
+	  			<i class="zmdi zmdi-search"></i> &nbsp; BUSCAR ESTUDIANTE
 	  		</a>
 	  	</li>
 	</ul>
