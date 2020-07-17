@@ -6,7 +6,7 @@
 ?>	
 <div class="container-fluid">
 	<div class="page-header">
-	  <h1 class="text-titles"><i class="zmdi zmdi-labels zmdi-hc-fw"></i> Administración <small>CATEORÍAS</small></h1>
+	  <h1 class="text-titles"><i class="zmdi zmdi-labels zmdi-hc-fw"></i> Administración <small>CATEGORÍAS</small></h1>
 	</div>
 	<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse voluptas reiciendis tempora voluptatum eius porro ipsa quae voluptates officiis sapiente sunt dolorem, velit quos a qui nobis sed, dignissimos possimus!</p>
 </div>
@@ -15,12 +15,12 @@
 	<ul class="breadcrumb breadcrumb-tabs">
 	  	<li>
 	  		<a href="<?php echo SERVERURL; ?>category/" class="btn btn-info">
-	  			<i class="zmdi zmdi-plus"></i> &nbsp; NUEVA CATEORÍA
+	  			<i class="zmdi zmdi-plus"></i> &nbsp; NUEVA CATEGORÍA
 	  		</a>
 	  	</li>
 	  	<li>
 	  		<a href="<?php echo SERVERURL; ?>categorylist/" class="btn btn-success">
-	  			<i class="zmdi zmdi-format-list-bulleted"></i> &nbsp; LISTA DE CATEORÍAS
+	  			<i class="zmdi zmdi-format-list-bulleted"></i> &nbsp; LISTA DE CATEGORÍA
 	  		</a>
 	  	</li>
 	</ul>
