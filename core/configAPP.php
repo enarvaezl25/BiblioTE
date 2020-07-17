@@ -2,7 +2,7 @@
 	
 	/*----------  Datos del servidor  ----------*/
 	const SERVER="localhost";
-	const DB="biblioteca_publica";
+	const DB="BibliotecaVirtualTE";
 	const USER="root";
 	const PASS="";
 
