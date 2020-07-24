@@ -127,7 +127,7 @@
 			              break;
 			            }
 
-						chmod($imgDir, 0777);
+						chmod($imgDir, 0755);
 						$imgFinalName=$fileCodigo.$imgExt;
 
 						if(!move_uploaded_file($_FILES['imagen']['tmp_name'], $imgDir.$imgFinalName)){
@@ -170,7 +170,7 @@
 				if($_FILES['pdf']['type']=="application/pdf"){
 					if(($_FILES['pdf']['size']/1024)<=$pdfMaxSize){
 
-						chmod($pdfDir, 0777);
+						chmod($pdfDir, 0755);
 						$pdfFinalName=$fileCodigo.".pdf";
 
 						if(!move_uploaded_file($_FILES['pdf']['tmp_name'], $pdfDir.$pdfFinalName)){
@@ -241,12 +241,12 @@
 			}else{
 
 				if(is_file($imgDir.$imgFinalName)){
-					chmod($imgDir.$imgFinalName, 0777);
+					chmod($imgDir.$imgFinalName, 0755);
 					unlink($imgDir.$imgFinalName);
 				}
 
 				if(is_file($pdfDir.$pdfFinalName)){
-					chmod($pdfDir.$pdfFinalName, 0777);
+					chmod($pdfDir.$pdfFinalName, 0755);
 					unlink($pdfDir.$pdfFinalName);
 				}
 
@@ -584,7 +584,7 @@
 
 					if(($_FILES['archivo']['size']/1024)<=$fileMaxSize){
 
-						chmod($dir, 0777);
+						chmod($dir, 0755);
 
 						if(move_uploaded_file($_FILES['archivo']['tmp_name'], $dir.$fileNameUp)){
 
@@ -599,7 +599,7 @@
 								];
 							}else{
 								if(is_file($dir.$fileNameUp)){
-									chmod($dir.$fileNameUp, 0777);
+									chmod($dir.$fileNameUp, 0755);
 									unlink($dir.$fileNameUp);
 								}
 								$alerta=[
@@ -676,7 +676,7 @@
 
 					if($upArchivo->rowCount()==1){
 						if(is_file($dir.$archivo)){
-							chmod($dir.$archivo, 0777);
+							chmod($dir.$archivo, 0755);
 							unlink($dir.$archivo);
 						}
 						$alerta=[
@@ -731,12 +731,12 @@
 					if($delLibro->rowCount()==1){
 
 						if(is_file("../adjuntos/img/".$datosLibro['LibroImagen'])){
-							chmod("../adjuntos/img/".$datosLibro['LibroImagen'], 0777);
+							chmod("../adjuntos/img/".$datosLibro['LibroImagen'], 0755);
 							unlink("../adjuntos/img/".$datosLibro['LibroImagen']);
 						}
 
 						if(is_file("../adjuntos/pdf/".$datosLibro['LibroPDF'])){
-							chmod("../adjuntos/pdf/".$datosLibro['LibroPDF'], 0777);
+							chmod("../adjuntos/pdf/".$datosLibro['LibroPDF'], 0755);
 							unlink("../adjuntos/pdf/".$datosLibro['LibroPDF']);
 						}
 
