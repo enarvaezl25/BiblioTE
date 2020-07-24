@@ -21,7 +21,6 @@
 		administradores
 		</div>
 		<div class="full-box tile-icon text-center">
-			<!-- <i class="zmdi zmdi-account"></i> -->
 			<i class="zmdi zmdi-account">
 			</i>
 			
